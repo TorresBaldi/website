@@ -1,0 +1,22 @@
+<nav class="navbar is-primary">
+  <div class="container">
+
+    <div class="navbar-brand">
+      <a href="<%- config.root %>" class="navbar-item title"><%= config.title %></a>
+    </div>
+
+
+    <div class="navbar-menu is-active">
+      <div class="navbar-end">
+
+
+		<% for (var i in theme.menu){ %>
+			<a href="<%= theme.menu[i] %>" class="navbar-item <%- is_current(theme.menu[i], true)? 'is-active' : '' %>">
+				<%- i %>
+			</a>
+		<% } %>
+
+      </div>
+    </div>
+  </div>
+</nav>

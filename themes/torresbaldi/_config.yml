@@ -1,0 +1,9 @@
+menu:
+  Inicio: /
+  Juegos: /juegos/
+  Herramientas: /herramientas/
+
+node_sass:
+  outputStyle: nested
+  precision: 5
+  sourceComments: false

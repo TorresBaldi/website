@@ -1,0 +1,48 @@
+<div class="card">
+  <div class="card-content">
+
+    <p class="title">
+      <a href="<%- url_for(item.path) %>">
+        <%- item.title %>
+      </a>
+    </p>
+
+    <div class="tags">
+      <span class="tag is-dark"><%= item.date.format(config.date_format) %></span>
+    </div>
+
+    <div class="content">
+
+      <%- item.content %>
+
+    </div>
+
+  </div>
+</div>
+
+
+<% if (item.tags && item.tags.length){ %>
+<%
+    var tags = [];
+    item.tags.forEach(function(tag){
+        tags.push('<a href="' + config.root + tag.path + '">#' + tag.name + '</a>');
+    });
+%>
+<div class="blog-tags-container">
+    <span class="glyphicon glyphicon-tags"></span>
+    <%- tags.join(' ') %>
+</div>
+<% } %>
+
+<% if (item.categories && item.categories.length){ %>
+<%
+    var categories = [];
+    item.categories.forEach(function(category){
+        categories.push('<a href="' + config.root + category.path + '">' + category.name + '</a>');
+    });
+%>
+<div class="blog-categories-container">
+    <span class="glyphicon glyphicon-folder-open"></span>
+    <%- categories.join(' / ') %>
+</div>
+<% } %>

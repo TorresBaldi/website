@@ -1,0 +1,28 @@
+<% site.pages.each(function(item){ %>
+	<% if (item.parent == parent){ %>
+		<div class="card">
+
+		<% if (item.img){ %>
+		<div class="card-image">
+			<a href="/<%- item.parent %>/<%- item.name %>">
+				<figure class="image is-4by3">
+					<img src="/img/<%- item.img %>" alt="<%- item.title %>">
+				</figure>
+			</a>
+		</div>
+		<% } %>
+
+		  <div class="card-content">
+
+		    <p class="title">
+		    	<a href="/<%- item.parent %>/<%- item.name %>">
+		    		<%- item.title %>
+		    	</a>
+		    </p>
+
+		  </div>
+		</div>
+	<% } %>
+<% }); %>
+
+

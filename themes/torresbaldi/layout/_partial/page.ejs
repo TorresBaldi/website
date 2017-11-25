@@ -1,0 +1,29 @@
+<div class="card">
+
+	<% if (item.img){ %>
+	<div class="card-image">
+		<a href="/<%- item.parent %>/<%- item.name %>">
+			<figure class="image is-4by3">
+				<img src="/img/<%- item.img %>" alt="<%- item.title %>">
+			</figure>
+		</a>
+	</div>
+	<% } %>
+
+  <div class="card-content">
+
+    <p class="title">
+      <%- item.title %>
+    </p>
+
+    <div class="content">
+
+      <%- item.content %>
+
+
+    </div>
+
+  </div>
+</div>
+
+<%- partial('_partial/subpages', {parent: item.name}) %>
