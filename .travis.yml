@@ -1,0 +1,17 @@
+language: node_js
+
+branches:
+  only:
+    - master
+
+install:
+  - npm install
+
+# replace secret values on deploy config
+before_script:
+  - sed -i "s/FTP_USERNAME/${FTP_USERNAME}/" _config.yml
+  - sed -i "s/FTP_PASSWORD/${FTP_PASSWORD}/" _config.yml
+
+script:
+  - hexo generate
+  - hexo deploy

@@ -73,4 +73,8 @@ theme: torresbaldi
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: ftpsync
+  host: ftp.torresbaldi.com
+  user: FTP_USERNAME
+  pass: FTP_PASSWORD
+  remote: public_html/
