@@ -78,3 +78,5 @@ deploy:
   user: FTP_USERNAME
   pass: FTP_PASSWORD
   remote: /public_html
+  ignore:
+    - /public_html/files/
