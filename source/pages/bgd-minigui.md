@@ -8,6 +8,4 @@ parent: herramientas
 
 Una pequeña libreria para el manejo de interfaces y ventanas dentro de BennuGD.
 
-Estado: WIP.
-
 ![Work In Progress](/img/wip.jpg)
