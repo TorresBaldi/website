@@ -3,9 +3,6 @@ language: node_js
 node_js:
 - '8'
 
-addons:
-  ssh_known_hosts: $SERVER_HOSTNAME
-
 env:
   - REMOTE_LOCATION=$SERVER_USERNAME@$SERVER_HOSTNAME:/home/$SERVER_USERNAME/public_html
 
@@ -16,6 +13,7 @@ script:
 - hexo generate
 
 before_deploy:
+- ssh-keyscan -t $TRAVIS_SSH_KEY_TYPES -H $SERVER_HOSTNAME 2>&1 | tee -a $HOME/.ssh/known_hosts
 - openssl aes-256-cbc -K $encrypted_166da6ee0d78_key -iv $encrypted_166da6ee0d78_iv -in deploy_key.enc -out /tmp/deploy_key -d
 - chmod 600 /tmp/deploy_key
 - eval "$(ssh-agent -s)"
