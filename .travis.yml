@@ -15,5 +15,6 @@ before_script:
   - sed -i "s/FTP_PASSWORD/${FTP_PASSWORD}/" _config.yml
 
 script:
+  - mkdir source/files
   - hexo generate
   - hexo deploy
