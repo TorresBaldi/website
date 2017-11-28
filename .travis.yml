@@ -7,7 +7,7 @@ addons:
   ssh_known_hosts: $SERVER_HOSTNAME
 
 env:
-  - REMOTE_LOCATION=$SERVER_USERNAME@SERVER_HOSTNAME:/home/$SERVER_USERNAME/public_html
+  - REMOTE_LOCATION=$SERVER_USERNAME@$SERVER_HOSTNAME:/home/$SERVER_USERNAME/public_html
 
 install:
 - npm install
