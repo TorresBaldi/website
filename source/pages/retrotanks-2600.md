@@ -2,7 +2,7 @@
 title: RetroTanks-2600
 date: 2017-11-25
 permalink: juegos/retrotanks-2600/
-img: wip.png
+img: wip.jpg
 name: retrotanks-2600
 parent: juegos
 ---
