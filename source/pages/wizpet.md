@@ -6,4 +6,5 @@ img: wizpet.png
 name: wizpet
 parent: juegos
 ---
-![Work In Progress](/img/wip.jpg)
+
+Juego participante del concurso 'Making my Game the way I like 2012'.
