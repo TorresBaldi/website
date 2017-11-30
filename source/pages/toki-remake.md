@@ -2,7 +2,7 @@
 title: Toki Remake
 date: 2017-11-25
 permalink: juegos/toki-remake/
-img: wip.jpg
+img: not-found.png
 name: toki-remake
 parent: juegos
 ---
