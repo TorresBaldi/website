@@ -38,9 +38,11 @@ Hexo viene con una herramienta de linea de comandos que facilita su uso. Por eje
 
 Después para poder ver el blog con los cambios, hay que correr ```hexo serve```, y desde el navegador visitar ```http://localhost:4000```. Listo, vemos cualquier cambio que hagamos en el sitio cada vez que refresquemos la pagina.
 
-Por ultimo (y creo que esto es lo mejor), para hacer un deploy al servidor, sólo hay que hacer ```hexo deploy```, y el mismísimo hexo se encarga de todo de acuerdo a lo que hayamos configurado previamente. Excelente.
+~~Por ultimo (y creo que esto es lo mejor), para hacer un deploy al servidor, sólo hay que hacer ```hexo deploy```, y el mismísimo hexo se encarga de todo de acuerdo a lo que hayamos configurado previamente. Excelente.~~
 
-Como toque final subí el código a Github, de forma publica, y agregué Travis a todo ese proceso, asi los deploys se hacen de forma automática en cada commit.
+__Actualización__: Tuve problemas para configurar el sistema de deploy exactamente de la forma en que yo lo necesitaba (rsync, ignorando algunas carpetas en particual, todo por ssh, y usando una clave privada para autenticación) así que decidí optar por hacer los deploys de forma "personalizada" dentro de la ejecución de de Travis.
+
+Como toque final subí el código a Github, [de manera pública en Github](https://github.com/TorresBaldi/website), y agregué Travis a todo ese proceso, asi los deploys se hacen de forma automática en cada commit.
 
 ## Tecnologías Utilizadas
 
