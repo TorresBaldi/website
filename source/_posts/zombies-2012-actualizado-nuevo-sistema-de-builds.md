@@ -36,6 +36,8 @@ El último paso es subir los archivos generados a algún lado. Para esto estoy u
 
 Convenientemente TravisCI ya cuenta con un [modulo para encargarse de las subidas de archivos a GitHub Releases](https://docs.travis-ci.com/user/deployment/releases/), así que fue cuestión de configurar dentro del archivo _.travis.yml_ los archivos que quiero que sean subidos en cada release.
 
+![TravisCI Logo](/img/travis.jpg)
+
 Para poder ver todo el historial de builds, así como también la configuración utilizada, pueden visitar [la pagina de Travis](https://travis-ci.org/TorresBaldi/zombies-2012)
 
 Me queda pendiente de explicar:
