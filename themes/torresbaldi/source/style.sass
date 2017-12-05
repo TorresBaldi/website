@@ -9,13 +9,14 @@ $white-mutted: #bcbcbc
 
 $black-bg: #252525
 $gray-bg: #3c3c3c
+$gray-body-bg: #333
 
 $red-bg: #a43232
 $red-text: #f44242
 $red-highlight: #ff2626
 
 
-$white: $gray-bg
+$white: $gray-body-bg
 $background: $black-bg
 $text: $white-text
 $title-color: $white-highlight
@@ -30,5 +31,9 @@ $hr-background-color: $red-text
 $navbar-item-img-max-height: 2.5rem
 $navbar-item-color: $white-text
 $navbar-item-hover-background-color: $black-bg
+$card-background-color: $gray-bg
 
 @import "../../../node_modules/bulma/bulma"
+
+.card
+	margin-bottom: 3rem
