@@ -16,23 +16,29 @@ La idea es, para cada build descargar la ultima version de BennuGD desde la pagi
 
 Descarga, con wget:
 
-`wget http://www.bennugd.org/downloads/bgd-1.0.0-r335-linux.tar.gz`
+```
+wget http://www.bennugd.org/downloads/bgd-1.0.0-r335-linux.tar.gz
+```
 
 Instalación, que consiste en extraer los archivos, dar permisos de ejecución a los binarios, mover a las carpetas correspondientes, y hacer visibles las librerías. Todo esto sería:
 
-`tar -zxvf bgd-1.0.0-r335-linux.tar.gz
+```
+tar -zxvf bgd-1.0.0-r335-linux.tar.gz
 chmod +x bin/*
 sudo mv bin/* /usr/local/bin/
 sudo mv lib/* /usr/local/lib/
-sudo ldconfig -v`
+sudo ldconfig -v
+```
 
 Acá mismo quise probar correr **bgdc**, y no había caso, me decía que no encontraba el archivo, siendo que el archivo estaba ahí mismo donde yo lo había puesto. Después de varias horas de luchar con este problema, encontré que venia por el lado de [querer ejecutar un binario 32 bits es un sistema 64 bits](http://askubuntu.com/questions/133389/no-such-file-or-directory-but-the-file-exists). La solución? Instalar las librerías de compatibilidad con 32 bits, e instalar las dependencias de BennuGD en su versión especifica de 32 bits:
 
-`sudo apt-get update -qq
-// 32bit compatibility
+```
+sudo apt-get update -qq
+# 32bit compatibility
 sudo apt-get install -qq libc6:i386 libncurses5:i386 libstdc++6:i386
-// BennuGD dependencies
-sudo apt-get install -qq zlib1g:i386 libssl1.0.0:i386 libsdl1.2debian:i386 libsdl-mixer1.2:i386`
+# BennuGD dependencies
+sudo apt-get install -qq zlib1g:i386 libssl1.0.0:i386 libsdl1.2debian:i386 libsdl-mixer1.2:i386
+```
 
 Después de todo esto, chan, tenemos BennuGD instalado!
 
@@ -44,32 +50,34 @@ Y en este momento como no hay tests para correr, mi prueba es simplemente compro
 
 Estos dos procesos los separé en 2 scripts, a los que apropiadamente decidí llamar build.sh y test.sh. Corro todo con:
 
-`// primero doy permisos de ejecucion
+```
+# primero doy permisos de ejecucion
 sudo chmod +x build.sh test/test.sh
-// armo el archivo final
+# armo el archivo final
 ./build.sh
-// voy a la carpeta test a probar el juego que usa el archivo
+# voy a la carpeta test a probar el juego que usa el archivo
 cd test && ./test.sh && cd ..
-`
+```
 
 Dentro del test un pequeño truquito que tuve que hacer es corregir el código de salida de BennuGD, ya que travis respeta la nomenclatura unix, en la que un código de salida 0 es correcto, y algo mayor a 0 es error. El código final de test.sh me quedo así:
 
-    #!/bin/sh
+```bash
+#!/bin/sh
 
-    # build the test program
-    bgdc 'test.prg'
+# build the test program
+bgdc 'test.prg'
 
-    # invert output status of bgdc
-    if [ $? -eq 1 ]
-    then
-      exit 0
-    else
-      exit 1
-    fi
-
+# invert output status of bgdc
+if [ $? -eq 1 ]
+then
+  exit 0
+else
+  exit 1
+fi
+```
 Con esto, cuando el juego compila, Travis informa un build correcto. Excelente!
 
-![Automate all the things](https://i1.wp.com/torresbaldi.com/wp-content/uploads/2017/01/automate.png?resize=429%2C322)
+![Automate all the things](/img/automate.png 'Automate All The Things')
 
 Bueno, por ahora lo dejo aca. Ya se está haciendo bastante extenso el post, y la idea no era aburrir así. Todos estos pasos que detallé se pueden ver directamente en el archivo .travis.yml que está en la raíz del repositorio de algunos proyectos, por ejemplo [bgd-tilescroll/.travis.yml](https://github.com/TorresBaldi/bgd-tilescroll/blob/master/.travis.yml)
 
