@@ -1,6 +1,6 @@
 ---
 title: Migración de Wordpress a Hexo
-date: 2017-11-25 21:10:12
+date: 2017-11-25
 tags:
 ---
 
