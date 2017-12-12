@@ -1,4 +1,13 @@
 RewriteEngine On
-RewriteCond %{HTTPS} off
-RewriteCond %{HTTP_HOST} !=files.torresbaldi.com
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# for main domain
+RewriteCond %{HTTP_HOST} ^(www\.)?torresbaldi\.com$ [NC]
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://torresbaldi.com%{REQUEST_URI} [R=301,L,NE]
+
+# for files subdomain
+RewriteCond %{HTTP_HOST} ^(www\.)?files\.torresbaldi\.com$ [NC]
+RewriteCond %{HTTPS} on [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ http://files.torresbaldi.com%{REQUEST_URI} [R=301,L,NE]
