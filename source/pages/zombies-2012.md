@@ -11,6 +11,6 @@ Participante del "[Primer concurso de juegos BennuGD WIZ/PC](https://forum.bennu
 
 Fue el primer juego (serio?) que publicamos, aunque lamentablemente no alcanzó el plazo del concurso para implementar todas las ideas que teniamos planeadas.
 
-El juego fue portado por la comunidad de BennuGD a varias plataformas luego del lanzamiento, incluidas una version para [PS2 (hombrew)](https://code.google.com/archive/p/bennugdplay2/downloads), y una version para [Sega dreamcast (homebrew)](http://www.theisozone.com/downloads/dreamcast/sd-isos/bennudc-zombies-2012-examples/), para la que hasta se hizo una [__cover image__](http://www.theisozone.com/covers/dreamcast/bennudc-zombies-2012-usa-front-dreamcast/).
+El juego fue portado por la comunidad de BennuGD a varias plataformas luego del lanzamiento, incluidas una version para [PS2 (hombrew)](https://code.google.com/archive/p/bennugdplay2/downloads), y una version para [Sega dreamcast (homebrew)](http://www.theisozone.com/downloads/dreamcast/sd-isos/bennudc-zombies-2012-examples/), para la que hasta se hizo una [__cover image__](http://www.theisozone.com/covers/dreamcast/bennudc-zombies-2012-usa-front-dreamcast/)(!!).
 
-Actualmente el código [está publicado en Github](https://github.com/TorresBaldi/zombies-2012).
+Actualmente el código [está publicado en Github](https://github.com/TorresBaldi/zombies-2012), y si bien están planeadas varias features nuevas lamentablemente no hemos tenido el tiempo y la motivación suficientes para llevarlas a cabo.
