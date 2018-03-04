@@ -1,10 +1,6 @@
 ---
 title: Santa's Rush
 date: 2017-11-25
-permalink: juegos/santas-rush/
-img: santas-rush.png
-name: santas-rush
-parent: juegos
 ---
 
 Un juego que realizamos muy rápidamente para un evento de navidad en el foro de TIgSource.

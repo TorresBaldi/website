@@ -1,9 +1,6 @@
 ---
 title: bgd-minikeyboard
 date: 2017-11-25
-permalink: herramientas/bgd-minikeyboard/
-name: bgd-minikeyboard
-parent: herramientas
 ---
 
 Originalmente nombrado wiz-keyboard, la idea de este proyecto es encapsular todo el funcionamiento de un teclado tactil en pantalla en un solo llamado a una funcion, simplificando en gran medida el ingreso de datos de parte del ususario.

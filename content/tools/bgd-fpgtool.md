@@ -1,9 +1,6 @@
 ---
 title: bgd-fpgtool
 date: 2017-11-25
-permalink: herramientas/bgd-fpgtool/
-name: bgd-fpgtool
-parent: herramientas
 ---
 
 Una herramienta por consola para manejo de archivos FPG, programada en BennuGD.

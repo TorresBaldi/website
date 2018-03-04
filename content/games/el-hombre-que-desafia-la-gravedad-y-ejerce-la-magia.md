@@ -1,10 +1,6 @@
 ---
 title: El Hombre Que Desafía La Gravedad y Ejerce La Magia
 date: 2017-11-25
-permalink: juegos/el-hombre-que-desafia-la-gravedad-y-ejerce-la-magia/
-img: el-hombre.png
-name: el-hombre-que-desafia-la-gravedad-y-ejerce-la-magia
-parent: juegos
 ---
 
 El primer juego con el que participamos en un concurso.

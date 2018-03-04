@@ -1,10 +1,6 @@
 ---
 title: Toki Remake
 date: 2017-11-25
-permalink: juegos/toki-remake/
-img: toki-remake.png
-name: toki-remake
-parent: juegos
 ---
 
 Participante del Concurso de programación 'Thunder Hoop Remake' organizado por Geca en el foro de BennuGD.

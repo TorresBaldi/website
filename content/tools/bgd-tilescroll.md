@@ -1,9 +1,6 @@
 ---
 title: bgd-tilescroll
 date: 2017-11-25
-permalink: herramientas/bgd-tilescroll/
-name: bgd-tilescroll
-parent: herramientas
 ---
 
 Una pequeña libreria para el manejo de mapas de tiles dentro de BennuGD.
