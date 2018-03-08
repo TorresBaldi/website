@@ -1,7 +1,6 @@
 ---
 title: 'Nuevo Juego, Nueva Plataforma, Nuevo Género'
 date: 2017-12-24
-tags:
 ---
 
 Estamos preparando un nuevo juego! Y bastante distinto a lo que veniamos haciendo, siempre con BennuGD. Esta vez vamos a hacer un [_browser-based game_](https://en.wikipedia.org/wiki/Browser_game), como los de antes!
@@ -18,7 +17,7 @@ Y por último, hace mucho tiempo tenemos como objetivo el crear un juego de este
 
 ### Un poco de Información
 
-![Pen&Paper RPG](/img/rpg-dice.jpg)
+![Pen&Paper RPG](rpg-dice.jpg)
 
 Todavia no hay nada demasiado definido, pero la idea general es ambientar el juego en un mundo medieval mágico, con muchos aspectos de RPG clásico _de los de lápiz y papel_. Tenemos planeado incluir distintas Razas, Clases, Quests, Alianzas, Mercado, Crafting, Entrenamiento, Construcción, Tecnologías, y tal vez algunas cositas más.
 

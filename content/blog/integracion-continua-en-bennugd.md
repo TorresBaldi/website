@@ -1,7 +1,6 @@
 ---
 title: Integración Continua en BennuGD
 date: 2017-01-19
-tags:
 ---
 
 Aprovechando la [migración que hice de todos mis proyectos BennuGD a Github](http://torresbaldi.com/nuestros-juegos-en-github/), se me ocurrió intentar modernizar un poco las técnicas de desarrollo y agregar integración continua a la mezcla. También aprovechando que en proyectos open source esto se puede hacer de manera gratuita con [Travis CI](https://travis-ci.org).
@@ -77,7 +76,7 @@ fi
 ```
 Con esto, cuando el juego compila, Travis informa un build correcto. Excelente!
 
-![Automate all the things](/img/automate.png 'Automate All The Things')
+![Automate all the things](automate.png)
 
 Bueno, por ahora lo dejo aca. Ya se está haciendo bastante extenso el post, y la idea no era aburrir así. Todos estos pasos que detallé se pueden ver directamente en el archivo .travis.yml que está en la raíz del repositorio de algunos proyectos, por ejemplo [bgd-tilescroll/.travis.yml](https://github.com/TorresBaldi/bgd-tilescroll/blob/master/.travis.yml)
 

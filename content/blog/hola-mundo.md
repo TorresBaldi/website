@@ -1,7 +1,6 @@
 ---
 title: Hola Mundo
 date: 2016-05-10
-tags:
 ---
 
 ```

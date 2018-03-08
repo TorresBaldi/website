@@ -1,7 +1,6 @@
 ---
 title: 'Zombies 2012 Actualizado: Nuevo Sistema de Builds'
 date: 2017-02-20
-tags:
 ---
 
 Siguiendo con el tema de modernizar los builds, esta vez le tocó el turno al [Zombies 2012](http://torresbaldi.com/juegos/zombies-2012/). Voy a dar un repaso del nuevo proceso de build multiplataforma (por el momento: windows, linux, wiz, caanoo) del juego.
@@ -36,7 +35,7 @@ El último paso es subir los archivos generados a algún lado. Para esto estoy u
 
 Convenientemente TravisCI ya cuenta con un [modulo para encargarse de las subidas de archivos a GitHub Releases](https://docs.travis-ci.com/user/deployment/releases/), así que fue cuestión de configurar dentro del archivo _.travis.yml_ los archivos que quiero que sean subidos en cada release.
 
-![TravisCI Logo](/img/travis.jpg)
+![TravisCI Logo](travis.jpg)
 
 Para poder ver todo el historial de builds, así como también la configuración utilizada, pueden visitar [la pagina de Travis](https://travis-ci.org/TorresBaldi/zombies-2012)
 

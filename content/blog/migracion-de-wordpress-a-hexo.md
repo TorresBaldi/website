@@ -1,7 +1,6 @@
 ---
 title: Migración de Wordpress a Hexo
 date: 2017-11-25
-tags:
 ---
 
 Sin querer __borré el sitio web anterior__, hecho en wordpress. Y para no tener que pasar por el doloroso proceso de restaurar una copia de seguridad, y aprovechando la situación...
@@ -16,7 +15,7 @@ La ventaja creo que en mi caso es la simpleza en el mantenimiento del sitio, ya 
 
 Un requisito que tambien me gustó incluir en la busqueda de la herramienta indicada fue que tenga la menor cantidad de dependencias que instalar, dentro de lo posible (eso tambien suma a la idea de simpleza). Y así fue que llegue a [HEXO](https://hexo.io/), un generador de sitios estáticos en NodeJS.
 
-![Hexo Logo](/img/hexo.png)
+![Hexo Logo](hexo.png)
 
 ## Instalación y Desarrollo
 
