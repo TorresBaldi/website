@@ -1,0 +1,3 @@
+[submodule "themes/bulmin"]
+	path = themes/bulmin
+	url = git@github.com:tehuel/bulmin.git
