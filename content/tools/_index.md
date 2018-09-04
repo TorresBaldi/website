@@ -1,6 +1,9 @@
 ---
 title: Herramientas
 date: 2017-11-25
+menu:
+  main:
+    weight: 30
 ---
 
 Con la esperanza de ayudar en el desarrollo de videojuegos, hemos lanzado distintas herramientas, siempre usando BennuGD como plataforma principal.
