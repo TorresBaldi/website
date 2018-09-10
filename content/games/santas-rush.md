@@ -1,9 +1,9 @@
 ---
 title: Santa's Rush
-date: 2017-11-25
+date: 2011-11-10
 ---
 
-Un juego que realizamos muy rápidamente para un evento de navidad en el foro de TIgSource.
+Un juego que realizamos muy rápidamente para un evento de navidad en [el foro de TIgSource](https://forums.tigsource.com/index.php?topic=22778.0).
 
 La idea era durante todo el mes de diciembre seleccionar participantes para desarrollar un juego para cada dia del mes hasta llegar a la navidad. Como objetivo extra era mejor si el juego era desarrollado en el mismo dia que debia ser publicado.
 

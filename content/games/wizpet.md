@@ -1,6 +1,6 @@
 ---
 title: WizPet
-date: 2017-11-25
+date: 2012-11-02
 ---
 
 Una mascota virtual, adaptada a la consola GP2X Wiz. Juego participante del concurso ‘Making my Game the way I like 2012’.

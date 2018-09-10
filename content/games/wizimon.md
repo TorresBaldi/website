@@ -1,6 +1,6 @@
 ---
 title: Wizimon
-date: 2017-11-25
+date: 2012-03-21
 ---
 
 Clon del clásico 'simon says', adaptado para la pantalla táctil de la consola [GP2X Wiz](https://es.wikipedia.org/wiki/GP2X_Wiz). Incluye varios modos de juego diferentes.

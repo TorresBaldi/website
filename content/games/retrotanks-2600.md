@@ -1,6 +1,7 @@
 ---
 title: RetroTanks-2600
-date: 2017-11-25
+date: 2016-11-09
+draft: true
 ---
 
 Juego nunca terminado. Iba a participar del [concurso "Gana Tu Avatar Guay"](http://forum.bennugd.org/index.php?topic=4390.0) en el foro de BennuGD, organizado por [Futu](http://forum.bennugd.org/index.php?action=profile;u=281), pero debido a ciertas complicaciones no pude terminarlo.
