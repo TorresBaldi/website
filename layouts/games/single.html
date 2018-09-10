@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+  <article class="card" style="margin-bottom: 4rem;">
+    <div class="card-image">
+      <figure class="image">
+        <img src="{{ ( .Params.image | default "/images/not-found.png" ) | relURL }}" style="object-fit: cover">
+      </figure>
+    </div>
+    <div class="card-content">
+
+      <h1 class="title is-3" style="margin-bottom: 0;">
+        {{ .Title }}
+      </h1>
+
+      <div class="card-meta has-text-left" style="margin-bottom: 2rem;">
+        {{ if not .Date.IsZero }}
+          <p class="subtitle is-6 has-text-grey">
+            publicado {{ .Date.Format "2006.01.02" }}
+          </p>
+        {{ end }}
+      </div>
+
+      <div class="content">
+        {{ .Content }}
+      </div>
+
+      <div class="content">
+        <p class="title is-4">Downloads</p>
+        <div class="buttons is-centered">
+          {{ range .Params.Downloads }}
+            <a class="button is-primary" href="{{ .url }}" title="{{ .version }} - {{ .size }}">
+              {{ .platform | title }}
+            </a>
+          {{ end }}
+        </div>
+      </div>
+
+    </div>
+
+
+  </article>
+
+{{ end }}

@@ -1,6 +1,13 @@
 ---
 title: Toki Remake
 date: 2011-07-01
+image: /games/toki-remake.png
+downloads:
+  - platform: windows
+    url: http://files.torresbaldi.com/tokiremake-0.1-windows.zip
+    size: 1.7Mb
+    version: v0.1
+
 ---
 
 Participante del [Concurso 'DIV-Like Plataformero' (Thunder Hoop Remake)](https://forum.bennugd.org/index.php/topic,2211.0.html) organizado por Geca en el foro de BennuGD.
@@ -10,5 +17,3 @@ Historia conocida para nosotros, pero lamentablemente no pudimos finalizar la im
 Destacable es la buena calidad de los gráficos vectoriales creados para el juego.
 
 ![Toki Remake Screenshot 1](/img/toki-remake-1.png)
-
-[__Descargar para Windows__](http://files.torresbaldi.com/tokiremake-0.1-windows.zip) (v0.1, 1.7mb)

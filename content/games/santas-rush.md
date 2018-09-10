@@ -1,6 +1,13 @@
 ---
 title: Santa's Rush
 date: 2011-11-10
+image: /games/santas-rush.png
+downloads:
+  - platform: windows
+    url: http://files.torresbaldi.com/santasrush-1.0-win.zip
+    size: 1.6Mb
+    version: v1.1
+
 ---
 
 Un juego que realizamos muy rápidamente para un evento de navidad en [el foro de TIgSource](https://forums.tigsource.com/index.php?topic=22778.0).
