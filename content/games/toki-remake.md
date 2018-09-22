@@ -1,7 +1,7 @@
 ---
 title: Toki Remake
 date: 2011-07-01
-image: /games/toki-remake.png
+image: /uploads/toki-remake.png
 downloads:
   - platform: windows
     url: http://files.torresbaldi.com/tokiremake-0.1-windows.zip

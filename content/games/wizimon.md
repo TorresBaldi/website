@@ -1,7 +1,7 @@
 ---
 title: Wizimon
 date: 2012-03-21
-image: /games/wizimon.png
+image: /uploads/wizimon.png
 downloads:
   - platform: windows
     url: http://files.torresbaldi.com/wizimon-0.6.1-windows.zip

@@ -1,7 +1,7 @@
 ---
 title: Zombies 2012
 date: 2009-11-25
-image: /games/zombies-2012.png
+image: /uploads/zombies-2012.png
 downloads:
   - platform: windows
     url: http://files.torresbaldi.com/zombies2012-1.2-windows.zip

@@ -1,7 +1,7 @@
 ---
 title: El Hombre Que Desafía La Gravedad y Ejerce La Magia
 date: 2007-04-13
-image: /games/el-hombre.png
+image: /uploads/el-hombre.png
 downloads:
   - platform: windows
     url: http://files.torresbaldi.com/el-hombre-que-desafia-la-gravedad-y-ejerce-la-magia.zip

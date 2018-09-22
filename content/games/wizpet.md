@@ -1,7 +1,7 @@
 ---
 title: WizPet
 date: 2012-11-02
-image: /games/wizpet.png
+image: /uploads/wizpet.png
 downloads:
   - platform: windows
     url: http://files.torresbaldi.com/wizpet-1.1-windows.zip

@@ -1,7 +1,7 @@
 ---
 title: Santa's Rush
 date: 2011-11-10
-image: /games/santas-rush.png
+image: /uploads/santas-rush.png
 downloads:
   - platform: windows
     url: http://files.torresbaldi.com/santasrush-1.0-win.zip
