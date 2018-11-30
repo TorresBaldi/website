@@ -1,5 +1,6 @@
 ---
 title: 'Nuevo Juego, Nueva Plataforma, Nuevo Género'
+draft: true
 date: 2017-12-24
 ---
 
