@@ -1,9 +1,8 @@
 baseURL = "https://torresbaldi.com/"
-languageCode = "en-us"
 title = "Torres Baldi Studio"
 theme = "bulmin"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
 	description = "Indie Game Makers"
-  mainSections = ["blog"]
+	mainSections = ["blog"]
