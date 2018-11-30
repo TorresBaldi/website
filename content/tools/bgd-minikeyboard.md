@@ -7,4 +7,4 @@ Originalmente nombrado wiz-keyboard, la idea de este proyecto es encapsular todo
 
 Fue usado en el juego [wizimon](/juegos/wizimon)
 
-![Work In Progress](/img/wip.jpg)
+{{< figure src="/img/wip.png" caption="Work In Progress" width="256px" height="256px" >}}

@@ -15,4 +15,4 @@ Todo esto se puede ejecutar desde la consola de comandos, lo que resulta muy uti
 
 Ahora mismo la estoy usando efectivamente en la compilación de [Zombies 2012](/juegos/zombies-2012), pero la idea es de a poco integrarla con todos los juegos.
 
-![Work In Progress](/img/wip.jpg)
+{{< figure src="/img/wip.png" caption="Work In Progress" width="256px" height="256px" >}}
