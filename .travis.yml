@@ -31,6 +31,6 @@ deploy:
   # deploys website via ssh rsync to prod server
   provider: script
   skip_cleanup: true
-  script: rsync -az --stats --delete --exclude='files/' -e "ssh -p $SERVER_PORT" ./public/ $SERVER_USERNAME@$SERVER_HOSTNAME:/home/$SERVER_USERNAME/public_html
+  script: rsync -az --stats --delete --exclude='files/' --exclude='.htaccess' -e "ssh -p $SERVER_PORT" ./public/ $SERVER_USERNAME@$SERVER_HOSTNAME:/home/$SERVER_USERNAME/public_html
   on:
     branch: master
