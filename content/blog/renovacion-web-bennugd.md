@@ -1,7 +1,6 @@
 ---
 title: Renovación de la Web de BennuGD
 date: 2018-11-29
-draft: true
 ---
 
 Actualmente se está dando una especie de resurgimiento de la comunidad BennuGD, dondese está armando un interesante debate en [el foro de BennuGD](http://forum.bennugd.org/index.php/topic,4735.0.html) y después en un server de Discord, principalmente con intenciones de dar fuerza a la comunidad div-like en general, unificando los distintos nichos en un grande y nuevo **DivHub**!
@@ -32,3 +31,8 @@ Esto tiene varias ventajas, como pueden ser
 
 Bueno, esto recien comienza, así que imposible estimar una fecha. De todas maneras están invitados a seguir el desarrollo en el [repositorio del proyecto en github](https://github.com/tehuel/bennugd-redesign).
 
+También se puede ver la vista previa en github-pages, yendo a [tehuel.github.io/bennugd-redesign](https://tehuel.github.io/bennugd-redesign).
+
+Por ahora es todo, pero espero muy pronto traer más novedades. 
+
+Nos Vemos! 👍
