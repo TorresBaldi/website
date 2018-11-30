@@ -16,7 +16,7 @@ install:
 
 script:
   # builds Hugo website
-  - hugo
+  - hugo --minify
 
 before_deploy:
   # decrypts private deploy key and adds to ssh agent
