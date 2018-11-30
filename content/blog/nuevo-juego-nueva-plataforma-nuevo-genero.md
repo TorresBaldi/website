@@ -17,7 +17,7 @@ Y por último, hace mucho tiempo tenemos como objetivo el crear un juego de este
 
 ### Un poco de Información
 
-![Pen&Paper RPG](rpg-dice.jpg)
+![Pen&Paper RPG](blog/rpg-dice.jpg)
 
 Todavia no hay nada demasiado definido, pero la idea general es ambientar el juego en un mundo medieval mágico, con muchos aspectos de RPG clásico _de los de lápiz y papel_. Tenemos planeado incluir distintas Razas, Clases, Quests, Alianzas, Mercado, Crafting, Entrenamiento, Construcción, Tecnologías, y tal vez algunas cositas más.
 

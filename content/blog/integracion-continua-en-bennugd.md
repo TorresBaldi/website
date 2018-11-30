@@ -76,7 +76,7 @@ fi
 ```
 Con esto, cuando el juego compila, Travis informa un build correcto. Excelente!
 
-![Automate all the things](automate.png)
+![Automate all the things](blog/automate.png)
 
 Bueno, por ahora lo dejo aca. Ya se está haciendo bastante extenso el post, y la idea no era aburrir así. Todos estos pasos que detallé se pueden ver directamente en el archivo .travis.yml que está en la raíz del repositorio de algunos proyectos, por ejemplo [bgd-tilescroll/.travis.yml](https://github.com/TorresBaldi/bgd-tilescroll/blob/master/.travis.yml)
 

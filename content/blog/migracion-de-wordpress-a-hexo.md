@@ -15,7 +15,7 @@ La ventaja creo que en mi caso es la simpleza en el mantenimiento del sitio, ya 
 
 Un requisito que tambien me gustó incluir en la busqueda de la herramienta indicada fue que tenga la menor cantidad de dependencias que instalar, dentro de lo posible (eso tambien suma a la idea de simpleza). Y así fue que llegue a [HEXO](https://hexo.io/), un generador de sitios estáticos en NodeJS.
 
-![Hexo Logo](hexo.png)
+![Hexo Logo](blog/hexo.png)
 
 ## Instalación y Desarrollo
 
