@@ -1,9 +1,5 @@
 dist: xenial
 
-addons:
-  # Adds prod server key to known hosts
-  ssh_known_hosts: $SERVER_HOSTNAME:$SERVER_PORT
-
 git:
   # Handle git submodules yourself
   submodules: false
@@ -28,6 +24,8 @@ before_deploy:
   - eval "$(ssh-agent -s)"
   - chmod 600 /tmp/travis_rsa
   - ssh-add /tmp/travis_rsa
+  # adds server fingerprint to known_hosts
+  - ssh-keyscan -H -p $SERVER_PORT" $SERVER_HOSTNAME >> ~/.ssh/known_hosts
 
 deploy:
   # deploys website via ssh rsync to prod server
