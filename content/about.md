@@ -1,6 +1,5 @@
 ---
 title: Nosotros
-draft: true
 menu:
   main:
     weight: 50
@@ -25,3 +24,5 @@ Ya con acceso a internet pudimos aprender mucho más de ejemplos, tutoriales, y 
 Por distintas circunstancias de la vida y los tiempos es que hoy ya no estamos desarrollando juegos. Aunque las ganas de arrancar un nuevo proyecto, las ganas de hacerlo bien, y las ganas de terminarlo... todavía siguen intactas.
 
 Ojalá en algún momento podamos volver a la acción.
+
+😊
