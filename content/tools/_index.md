@@ -1,6 +1,5 @@
 ---
 title: Herramientas
-date: 2017-11-25
 menu:
   main:
     weight: 30
