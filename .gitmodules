@@ -1,3 +1,3 @@
-[submodule "themes/bulmin"]
-	path = themes/bulmin
-	url = git@github.com:tehuel/bulmin.git
+[submodule "themes/bulminimal"]
+	path = themes/bulminimal
+	url = https://github.com/tehuel/bulminimal.git
